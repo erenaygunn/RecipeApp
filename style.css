@@ -66,3 +66,45 @@ body h1 {
     opacity: 80%;
 }
 
+#search-results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 220px;
+    height: 300px;
+    padding: 30px;
+    margin: 30px 10px 10px 10px;
+    background: rgba(194, 80, 118, 0.856);
+    border-radius: 20px;
+}
+
+.card-display {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.card-display img {
+    position: relative;
+    border-radius: 20px;
+    
+}
+.card-display h2 {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    padding: 7px;
+}
+
+.card-body {
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
