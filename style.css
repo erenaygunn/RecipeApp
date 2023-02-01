@@ -8,10 +8,10 @@
 body {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#e66465, #9198e5);
+    background: linear-gradient(#686868, #9198e5);
     background-repeat: no-repeat;
     background-size: contain;
-    font-family: 'Libre Caslon Text', serif;
+    font-family: 'Poppins', serif;
     color: white;
 }
 
@@ -49,7 +49,7 @@ body h1 {
     width: 400px;
 }
 #search::placeholder {
-    color: rgba(170, 101, 202, 0.432);
+    color: rgba(148, 148, 148, 0.432);
 }
 #search:focus {
     outline: none;
@@ -67,6 +67,7 @@ body h1 {
 }
 
 #search-results {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,30 +82,52 @@ body h1 {
     height: 300px;
     padding: 30px;
     margin: 30px 10px 10px 10px;
-    background: rgba(194, 80, 118, 0.856);
+    background: rgba(0, 0, 0, 0.493);
     border-radius: 20px;
+    transition: 0.2s;
+}
+.card:hover {
+    padding: 40px;
 }
 
 .card-display {
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    width: 200px;
 }
 
 .card-display img {
     position: relative;
     border-radius: 20px;
+    left: 10px;
     
 }
 .card-display h2 {
     position: absolute;
     bottom: 0;
     text-align: center;
-    padding: 7px;
+    padding-left:20px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Poppins', cursive;
+    font-size: 1.7em;
+    text-shadow: -1px -1px 0 #585858, 1px -1px 0 #585858, -1px 1px 0 #585858, 1px 1px 0 #585858;
+    line-height: 0.8;
 }
 
-.card-body {
-    position: relative;
-    bottom: 0;
-    left: 0;
+#view-details {
+    position: absolute;
+    top: 50;
+    left: 28%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+}
+#view-details:hover {
+    cursor: pointer;
+    opacity: 80%;
 }

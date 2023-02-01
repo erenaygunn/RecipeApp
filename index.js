@@ -23,6 +23,8 @@ const input = document.querySelector("#search")
 button.addEventListener("click", event => {
 
     event.preventDefault();
+    const body = document.querySelector("body");
+    body.style.height = "100%";
 
     const recipeName = input.value;
     fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=fc1b9482698049b6af3fd94cc094518b&query=${recipeName}`)
