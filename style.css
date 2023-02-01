@@ -8,7 +8,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#686868, #9198e5);
+    background: linear-gradient(#000, #fff);
     background-repeat: no-repeat;
     background-size: contain;
     font-family: 'Poppins', serif;
@@ -112,7 +112,7 @@ body h1 {
     color: white;
     font-family: 'Poppins', cursive;
     font-size: 1.7em;
-    text-shadow: -1px -1px 0 #585858, 1px -1px 0 #585858, -1px 1px 0 #585858, 1px 1px 0 #585858;
+    text-shadow: -1px -1px 0 #5e3959, 1px -1px 0 #5e3959, -1px 1px 0 #5e3959, 1px 1px 0 #5e3959;
     line-height: 0.8;
 }
 
